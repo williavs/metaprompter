@@ -3,7 +3,6 @@ langchain-anthropic
 langchain
 python-dotenv
 openai
-
 tiktoken
 streamlit_chat
 langchain_community
@@ -11,8 +10,5 @@ langchain_core
 langchain_openai
 langchain_experimental
 langgraph
-
-
-
-
 pandas
+altair
