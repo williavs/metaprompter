@@ -16,13 +16,13 @@ from langgraph.graph.message import add_messages
 from langgraph.prebuilt import ToolInvocation
 
 # Load environment variables
-load_dotenv()
+# load_dotenv()
 
 
 
 # Initialize ChatAnthropic
 llm = ChatAnthropic(
-    anthropic_api_key=os.getenv("ANTHROPIC_API_KEY"),
+    anthropic_api_key=st.secrets["anthropic_api_key"],
     model="claude-3-5-sonnet-20240620",
     temperature=0.7
 )
