@@ -57,7 +57,7 @@ You are an AI assistant embedded in an IDE. Please help me generate a comprehens
 
 <requirements>
 <frontend>
-Framework: React
+Framework: React 3.0.1
 Language: TypeScript
 Routing: React Router
 State Management: Context API or Redux
